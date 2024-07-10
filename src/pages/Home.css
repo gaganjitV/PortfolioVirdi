@@ -1,0 +1,28 @@
+/* src/pages/Home.css */
+#home {
+    padding: 40px 20px;
+    background: url('/public/natural_background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333; /* Dark gray text */
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  #home h2 {
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #333; /* Dark gray text */
+  }
+  
+  #home p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #555; /* Dark gray text */
+  }
+  

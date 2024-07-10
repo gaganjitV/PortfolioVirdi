@@ -1,0 +1,52 @@
+/* src/pages/Contact.css */
+#contact {
+  padding: 40px 20px;
+  background-color: #ffffff;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin: 10px 0 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #555;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+}
+
+form button {
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #2980b9;
+}

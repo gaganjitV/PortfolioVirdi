@@ -1,0 +1,28 @@
+/* src/pages/About.css, Projects.css, Contact.css */
+#about,
+#projects,
+#contact {
+  padding: 40px 20px;
+  background-color: #ffffff; /* White background */
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333; /* Dark gray text */
+}
+
+#about h2,
+#projects h2,
+#contact h2 {
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #333; /* Dark gray text */
+}
+
+#about p,
+#projects p,
+#contact p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  color: #555; /* Dark gray text */
+}

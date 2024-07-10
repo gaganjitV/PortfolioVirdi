@@ -1,0 +1,37 @@
+/* src/components/Header.css */
+header {
+    background-color: #3498db; /* Blue header background */
+    padding: 20px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #2980b9; /* Darker blue on hover */
+  }
+  
